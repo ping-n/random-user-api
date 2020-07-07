@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import User from "./components/User";
+import User from "./User";
+import "bulma/css/bulma.css"
 
 export default class App extends Component {
   state = { user: null };
